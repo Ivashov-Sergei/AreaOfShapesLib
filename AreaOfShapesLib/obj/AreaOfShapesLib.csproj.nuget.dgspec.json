@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AreaOfShapes\\lib\\AreaOfShapesLib\\AreaOfShapesLib.csproj": {}
+  },
+  "projects": {
+    "D:\\AreaOfShapes\\AreaOfShapesTest\\AreaOfShapesTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AreaOfShapes\\AreaOfShapesTest\\AreaOfShapesTest.csproj",
+        "projectName": "AreaOfShapesTest",
+        "projectPath": "D:\\AreaOfShapes\\AreaOfShapesTest\\AreaOfShapesTest.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj": {
+                "projectPath": "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj",
+        "projectName": "AreaOfShapes",
+        "projectPath": "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\AreaOfShapes\\lib\\AreaOfShapesLib\\AreaOfShapesLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AreaOfShapes\\lib\\AreaOfShapesLib\\AreaOfShapesLib.csproj",
+        "projectName": "AreaOfShapesLib",
+        "projectPath": "D:\\AreaOfShapes\\lib\\AreaOfShapesLib\\AreaOfShapesLib.csproj",
+        "packagesPath": "C:\\Users\\Sergei\\.nuget\\packages\\",
+        "outputPath": "D:\\AreaOfShapes\\lib\\AreaOfShapesLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sergei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\AreaOfShapes\\AreaOfShapesTest\\AreaOfShapesTest.csproj": {
+                "projectPath": "D:\\AreaOfShapes\\AreaOfShapesTest\\AreaOfShapesTest.csproj"
+              },
+              "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj": {
+                "projectPath": "D:\\AreaOfShapes\\AreaOfShapes\\AreaOfShapes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
